@@ -174,12 +174,6 @@ h1, h2, h3 { margin: 0; font-weight: 400; }
 
 /* ------------------------------------------------------------ piè di pagina */
 .footer { background: var(--night); color: #fff; padding: clamp(3.25rem, calc(3.25rem + (100vw - 22.5rem) * .0258), 5.5rem) var(--gutter) 1.5rem; }
-.footer .f-cta { display: flex; align-items: flex-end; justify-content: space-between; flex-wrap: wrap; gap: 1.5rem 3rem; padding-bottom: 2.5rem;
-  border-bottom: 1px solid var(--line-dark); }
-.footer .f-cta p { flex: 1 1 26rem; font-size: clamp(2.25rem, calc(2.25rem + (100vw - 22.5rem) * .0242), 4.25rem); line-height: 1.02; }
-.footer .f-cta em { color: color-mix(in srgb, var(--accent) 70%, white); }
-.footer .f-word { margin: clamp(1.5rem, calc(1.5rem + (100vw - 22.5rem) * .02), 3rem) 0 clamp(2rem, calc(2rem + (100vw - 22.5rem) * .02), 3.5rem); line-height: .8;
-  font-size: clamp(5rem, 21vw, 20rem); letter-spacing: -0.04em; color: transparent; -webkit-text-stroke: 1px rgba(255,255,255,.28); white-space: nowrap; overflow: hidden; }
 .footer .cols { display: grid; grid-template-columns: 4fr 2fr 3fr 2fr; gap: 2.5rem; }
 .footer .ft { font-size: .6875rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--muted-dark); margin-bottom: .875rem; }
 .footer .hl { color: #fff; font-size: .9375rem; line-height: 1.4; }

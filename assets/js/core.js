@@ -340,13 +340,7 @@ const ARCH = (() => {
     const c = boot.content;
     const k = c.contacts || {};
     const fl = (l, href, ext) => `<a class="hl" href="${esc(href)}"${ext ? ' target="_blank" rel="noopener"' : ''}><span>${esc(l)}</span></a><br>`;
-    // Invito a scrivere in alto, il nome dello studio a tutta larghezza, poi le colonne.
-    // Ai clienti già collegati non serve l'invito al primo incontro.
-    const cta = scaffold.current.startsWith('/area-clienti') ? '' : `<div class="f-cta"><p class="serif">Hai uno spazio<br><em>da immaginare?</em></p>
-        <a class="btn light big" href="contatti">Prenota un primo incontro${ms('arrow_outward')}</a></div>`;
-    return `<footer class="footer"><div class="wrap">${cta}
-      <div class="f-word serif" aria-hidden="true">${esc(c.shortName || c.companyName)}</div>
-      <div class="cols">
+    return `<footer class="footer"><div class="wrap"><div class="cols">
       <div>${logo({ height: '2.25rem', light: true })}<p>${esc(c.footerText)}</p></div>
       <div><div class="ft">Pagine</div>${[...NAV, ['Area clienti', '/area-clienti']].map(([l, p]) => fl(l, link(p))).join('')}</div>
       <div><div class="ft">Studio</div>
