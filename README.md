@@ -58,7 +58,7 @@ Le email partono dalla casella dello studio appena se ne inseriscono i dati in `
 
 ## Anteprima su GitHub Pages
 
-GitHub Pages non esegue PHP: a ogni push su `master` la GitHub Action `.github/workflows/anteprima.yml` lancia `php demo/build.php` e pubblica una copia statica, in cui `demo/demo.js` fa le veci di `api.php` dentro il browser.
+**https://felixone04.github.io/architetto/** mostra il sito con i contenuti di esempio, per vederne la grafica prima che sia su Hostinger. GitHub Pages non esegue PHP: a ogni push su `master` la GitHub Action `.github/workflows/anteprima.yml` lancia `php demo/build.php` e pubblica una copia statica, in cui `demo/demo.js` fa le veci di `api.php` dentro il browser.
 
 - Tutte le pagine, le animazioni e il pulsante "Colori" sono quelli veri.
 - Gestionale e area clienti si possono provare, ma i dati restano **solo nel browser di chi li modifica** (al primo accesso a `/admin` si sceglie una password qualsiasi).

@@ -2,7 +2,7 @@
 /*
  * Crea l'anteprima statica del sito per GitHub Pages:
  *     php demo/build.php [cartella] [percorso] [indirizzo]
- *     php demo/build.php _site /Lumen-Architettura/ https://felixone04.github.io
+ *     php demo/build.php _site /architetto/ https://felixone04.github.io
  * La pagina è index.php con i contenuti di esempio; demo/demo.js fa le veci
  * di api.php nel browser. Su Hostinger questa cartella non serve.
  */

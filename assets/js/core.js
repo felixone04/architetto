@@ -389,7 +389,7 @@ const ARCH = (() => {
 
   // ------------------------------------------------------------ router
   // Indirizzi veri (/progetti/villa-le-querce): il sito può stare anche in una
-  // sottocartella, indicata da <base href> (es. /Lumen-Architettura/ su GitHub Pages).
+  // sottocartella, indicata da <base href> (es. /architetto/ su GitHub Pages).
   const BASE = new URL(document.baseURI).pathname;
   const routes = [];
   let cleanups = [];
