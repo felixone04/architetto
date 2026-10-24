@@ -1,0 +1,6 @@
+# Testo sempre con fine riga LF (anche su Windows); caratteri e immagini sono binari
+* text=auto eol=lf
+*.woff2 binary
+*.png binary
+*.jpg binary
+*.sqlite binary

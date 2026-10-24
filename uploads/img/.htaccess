@@ -1,0 +1,5 @@
+# Nella cartella delle foto non si esegue codice
+<FilesMatch "\.(php\d?|phtml|phar|pl|py|cgi|sh|html?|js|svg)$">
+  Require all denied
+</FilesMatch>
+Options -Indexes

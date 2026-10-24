@@ -1,0 +1,852 @@
+{
+    "content": {
+        "companyName": "Lumen Architettura",
+        "shortName": "Lumen",
+        "tagline": "Studio di architettura e interni a Bari",
+        "logo": "",
+        "footerText": "Studio di architettura e interior design a Bari dal 2004. Progettiamo case, interni e luoghi di lavoro e li seguiamo fino all'ultimo dettaglio.",
+        "heroKicker": "Studio di architettura a Bari dal 2004",
+        "heroTitle": "Spazi pensati\nper chi li abita.",
+        "heroSubtitle": "Progettiamo case, interni e luoghi di lavoro in Puglia: dall'idea ai render, dalle pratiche alla direzione lavori, con un solo studio al tuo fianco.",
+        "introKicker": "Lo studio",
+        "introTitle": "Disegniamo con la luce,\ncostruiamo con le persone.",
+        "introText": "Siamo architetti, interior designer e ingegneri. Ogni progetto parte dall'ascolto: come vivi, cosa ti serve, quanto vuoi spendere. Poi lo disegniamo insieme, te lo facciamo vedere in render prima di costruirlo e lo seguiamo in cantiere fino alla consegna delle chiavi.",
+        "stats": [
+            {
+                "title": "20",
+                "text": "anni di progetti"
+            },
+            {
+                "title": "240+",
+                "text": "progetti realizzati"
+            },
+            {
+                "title": "60k",
+                "text": "metri quadri progettati"
+            },
+            {
+                "title": "12",
+                "text": "persone in studio"
+            }
+        ],
+        "projectsKicker": "Progetti",
+        "projectsTitle": "Progetti\nrecenti.",
+        "projectsText": "Case, interni, uffici e qualche restauro: spazi che raccontano chi li abita.",
+        "servicesKicker": "Servizi",
+        "servicesTitle": "Cosa\nfacciamo.",
+        "servicesText": "Scegli un servizio per vedere come lavoriamo e alcuni progetti in cui l'abbiamo messo in pratica.",
+        "ticker": [
+            "Architettura",
+            "Interior design",
+            "Ristrutturazioni",
+            "Restauro",
+            "Pratiche edilizie",
+            "Direzione lavori",
+            "Render 3D"
+        ],
+        "aboutKicker": "Lo studio",
+        "aboutTitle": "La nostra\nstoria.",
+        "aboutIntro": "Dal 2004 progettiamo spazi in cui stare bene: un piccolo studio diventato un gruppo affiatato di architetti e designer.",
+        "aboutText": "Lo studio nasce nel 2004 in una stanza di via Sparano, con due tavoli da disegno e un plotter di seconda mano. Elena Ferri e Marco Lisi avevano un'idea semplice: progettare ascoltando e restare accanto ai clienti anche dopo il disegno, in cantiere.\n\nOggi siamo in dodici, lavoriamo in BIM e mostriamo ogni progetto in render prima di costruirlo, ma le scelte importanti le prendiamo ancora attorno a un tavolo, con le persone che quegli spazi li abiteranno.\n\nIl nome viene dal latino: lumen, la luce. È il primo materiale con cui lavoriamo, e le sue cinque lettere sono le parole a cui teniamo.",
+        "aboutImage": "https://images.unsplash.com/photo-1503387837-b154d5074bd2?auto=format&fit=crop&w=1600&q=80",
+        "aboutImage2": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1600&q=80",
+        "values": [
+            {
+                "title": "Luce",
+                "text": "Orientamento, aperture, ombre: la luce naturale è il primo materiale di ogni progetto."
+            },
+            {
+                "title": "Umanità",
+                "text": "Progettiamo per chi abita gli spazi, partendo dalle sue abitudini e dai suoi desideri."
+            },
+            {
+                "title": "Misura",
+                "text": "Proporzioni giuste, budget rispettati, nessuno spreco di spazio o di risorse."
+            },
+            {
+                "title": "Essenzialità",
+                "text": "Pochi materiali scelti bene e dettagli disegnati per durare nel tempo."
+            },
+            {
+                "title": "Natura",
+                "text": "Materiali sani, efficienza energetica e rispetto del paesaggio pugliese."
+            }
+        ],
+        "timeline": [
+            {
+                "year": "2004",
+                "title": "Una stanza e due tavoli",
+                "text": "Elena Ferri e Marco Lisi aprono lo studio a Bari, con il primo incarico: una casa a Monopoli."
+            },
+            {
+                "year": "2009",
+                "title": "Il primo restauro",
+                "text": "Il recupero di una masseria del Settecento apre la strada ai progetti nei centri storici."
+            },
+            {
+                "year": "2014",
+                "title": "Nasce il reparto interni",
+                "text": "Arredi su misura, luci e materiali: seguiamo i progetti fino all'ultimo dettaglio."
+            },
+            {
+                "year": "2021",
+                "title": "Premio Architettura Puglia",
+                "text": "Menzione per il restauro della Casa delle Volte a Monopoli."
+            },
+            {
+                "year": "2024",
+                "title": "BIM e realtà virtuale",
+                "text": "I clienti visitano la loro casa in 3D prima che inizi il cantiere."
+            }
+        ],
+        "team": [
+            {
+                "id": "t-elena",
+                "name": "Elena Ferri",
+                "role": "Architetta, fondatrice",
+                "photo": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1600&q=80"
+            },
+            {
+                "id": "t-marco",
+                "name": "Marco Lisi",
+                "role": "Architetto, fondatore",
+                "photo": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=1600&q=80"
+            },
+            {
+                "id": "t-sara",
+                "name": "Sara Colella",
+                "role": "Interior designer",
+                "photo": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=1600&q=80"
+            },
+            {
+                "id": "t-davide",
+                "name": "Davide Amato",
+                "role": "Ingegnere, direzione lavori",
+                "photo": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=1600&q=80"
+            }
+        ],
+        "certifications": [
+            "Ordine degli Architetti PPC di Bari",
+            "Esperto CasaClima",
+            "LEED Green Associate",
+            "Progettazione BIM",
+            "Premio Architettura Puglia 2021"
+        ],
+        "contacts": {
+            "phone": "+39 080 765 4321",
+            "whatsapp": "+39 340 765 4321",
+            "email": "info@lumenarchitettura.it",
+            "pec": "lumenarchitettura@pec.it",
+            "address": "Via Abate Gimma 88, 70122 Bari",
+            "hours": "Lun–Ven 9:00–13:00 · 15:00–19:00, su appuntamento",
+            "instagram": "https://instagram.com/",
+            "facebook": "https://facebook.com/",
+            "linkedin": "https://linkedin.com/",
+            "vat": "P.IVA 09876543210"
+        },
+        "requestTypes": [
+            "Nuova casa",
+            "Ristrutturazione",
+            "Interior design",
+            "Restauro",
+            "Negozio, ufficio o locale",
+            "Pratica edilizia",
+            "Altro"
+        ],
+        "timings": [
+            "Il prima possibile",
+            "Entro 6 mesi",
+            "Entro un anno",
+            "Sto solo valutando"
+        ],
+        "budgets": [
+            "Fino a 50 mila €",
+            "50–150 mila €",
+            "150–400 mila €",
+            "Oltre 400 mila €",
+            "Non lo so ancora"
+        ],
+        "contactTitle": "Raccontaci\nil tuo progetto.",
+        "contactText": "Due righe bastano per iniziare: ti richiamiamo entro due giorni lavorativi per fissare un primo incontro, senza impegno.",
+        "contactImage": "https://images.unsplash.com/photo-1524230572899-a752b3835840?auto=format&fit=crop&w=1600&q=80",
+        "categories": [
+            "Residenziale",
+            "Interni",
+            "Ristrutturazione",
+            "Commerciale",
+            "Restauro"
+        ]
+    },
+    "projects": [
+        {
+            "id": "p-casa-ulivi",
+            "title": "Casa tra gli ulivi",
+            "category": "Residenziale",
+            "location": "Monopoli (BA)",
+            "year": "2024",
+            "client": "Privato",
+            "area": "320 m²",
+            "duration": "14 mesi",
+            "status": "completato",
+            "summary": "Una casa bassa e luminosa costruita attorno a un patio, tra gli ulivi secolari.",
+            "description": "I committenti volevano una casa che non togliesse nulla al paesaggio. L'abbiamo disegnata su un solo livello, attorno a un patio verde su cui si aprono tutte le stanze, con grandi vetrate scorrevoli rivolte agli ulivi e una copertura che protegge dal sole estivo.\n\nAbbiamo seguito tutto: concept, render, permesso di costruire, progetto esecutivo, interni su misura e direzione lavori fino alla consegna.",
+            "works": [
+                "Progetto architettonico",
+                "Permesso di costruire",
+                "Interior design",
+                "Progetto del verde",
+                "Direzione lavori"
+            ],
+            "cover": "https://images.unsplash.com/photo-1600585154363-67eb9e2e2099?auto=format&fit=crop&w=1600&q=80",
+            "photos": [
+                {
+                    "url": "https://images.unsplash.com/photo-1600585154363-67eb9e2e2099?auto=format&fit=crop&w=1600&q=80",
+                    "caption": "Il fronte sul giardino al tramonto"
+                },
+                {
+                    "url": "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1600&q=80",
+                    "caption": "La casa illuminata di sera"
+                },
+                {
+                    "url": "https://images.unsplash.com/photo-1600585153490-76fb20a32601?auto=format&fit=crop&w=1600&q=80",
+                    "caption": "Il soggiorno aperto sul patio"
+                },
+                {
+                    "url": "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=80",
+                    "caption": "La cucina e la zona pranzo"
+                },
+                {
+                    "url": "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?auto=format&fit=crop&w=1600&q=80",
+                    "caption": "Il camino in pietra"
+                },
+                {
+                    "url": "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=1600&q=80",
+                    "caption": "Camera padronale"
+                }
+            ],
+            "before": "https://images.unsplash.com/photo-1503387837-b154d5074bd2?auto=format&fit=crop&w=1600&q=80",
+            "after": "",
+            "featured": true,
+            "published": true
+        },
+        {
+            "id": "p-loft-madonnella",
+            "title": "Loft Madonnella",
+            "category": "Interni",
+            "location": "Bari",
+            "year": "2023",
+            "client": "Privato",
+            "area": "140 m²",
+            "duration": "7 mesi",
+            "status": "completato",
+            "summary": "Un ex laboratorio diventato casa: un solo grande ambiente, luce da tre lati.",
+            "description": "Abbiamo tolto i tramezzi e lasciato a vista le travi originali. La cucina diventa il centro della casa, le zone notte stanno dietro pareti in vetro e legno che lasciano passare la luce.\n\nTrascina il cursore qui sotto per confrontare il prima e il dopo.",
+            "works": [
+                "Interior design",
+                "Arredi su misura",
+                "Progetto della luce",
+                "Pratica CILA",
+                "Direzione lavori"
+            ],
+            "cover": "https://images.unsplash.com/photo-1505873242700-f289a29e1e0f?auto=format&fit=crop&w=1600&q=80",
+            "photos": [
+                {
+                    "url": "https://images.unsplash.com/photo-1505873242700-f289a29e1e0f?auto=format&fit=crop&w=1600&q=80",
+                    "caption": "Il living con le travi a vista"
+                },
+                {
+                    "url": "https://images.unsplash.com/photo-1600121848594-d8644e57abab?auto=format&fit=crop&w=1600&q=80",
+                    "caption": "La cucina a isola"
+                },
+                {
+                    "url": "https://images.unsplash.com/photo-1600489000022-c2086d79f9d4?auto=format&fit=crop&w=1600&q=80",
+                    "caption": "La zona pranzo"
+                },
+                {
+                    "url": "https://images.unsplash.com/photo-1565538810643-b5bdb714032a?auto=format&fit=crop&w=1600&q=80",
+                    "caption": "Dettaglio della cucina"
+                },
+                {
+                    "url": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1600&q=80",
+                    "caption": "Il bagno"
+                }
+            ],
+            "before": "https://images.unsplash.com/photo-1630699144867-37acec97df5a?auto=format&fit=crop&w=1600&q=80",
+            "after": "",
+            "featured": true,
+            "published": true
+        },
+        {
+            "id": "p-casa-mare",
+            "title": "Casa sul mare",
+            "category": "Ristrutturazione",
+            "location": "Polignano a Mare (BA)",
+            "year": "2023",
+            "client": "Privato",
+            "area": "260 m²",
+            "duration": "11 mesi",
+            "status": "completato",
+            "summary": "Una villetta degli anni '70 ripensata per guardare il mare da ogni stanza.",
+            "description": "Abbiamo consolidato la struttura esistente, spostato la zona giorno al primo piano e aperto il fronte verso il mare con un'unica vetrata. Fuori, una piscina a sfioro che sembra continuare l'orizzonte.\n\nLa pratica comprendeva l'ampliamento e il miglioramento sismico, con i bonus edilizi.",
+            "works": [
+                "Progetto architettonico",
+                "Ampliamento e miglioramento sismico",
+                "Pratiche e bonus edilizi",
+                "Interior design",
+                "Direzione lavori"
+            ],
+            "cover": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1600&q=80",
+            "photos": [
+                {
+                    "url": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1600&q=80",
+                    "caption": "La piscina a sfioro"
+                },
+                {
+                    "url": "https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=1600&q=80",
+                    "caption": "Il fronte verso il mare"
+                },
+                {
+                    "url": "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?auto=format&fit=crop&w=1600&q=80",
+                    "caption": "La terrazza"
+                },
+                {
+                    "url": "https://images.unsplash.com/photo-1599809275671-b5942cabc7a2?auto=format&fit=crop&w=1600&q=80",
+                    "caption": "La piscina al tramonto"
+                },
+                {
+                    "url": "https://images.unsplash.com/photo-1501183638710-841dd1904471?auto=format&fit=crop&w=1600&q=80",
+                    "caption": "Il living al primo piano"
+                }
+            ],
+            "before": "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?auto=format&fit=crop&w=1600&q=80",
+            "after": "",
+            "featured": true,
+            "published": true
+        },
+        {
+            "id": "p-levante-lab",
+            "title": "Sede Levante Lab",
+            "category": "Commerciale",
+            "location": "Modugno (BA)",
+            "year": "2022",
+            "client": "Levante Lab S.r.l.",
+            "area": "1.200 m²",
+            "duration": "10 mesi",
+            "status": "completato",
+            "summary": "Uffici flessibili per un'azienda che cresce: open space, sale progetto e una terrazza.",
+            "description": "Il programma chiedeva spazi che cambiano con l'azienda. Abbiamo progettato open space luminosi, pareti mobili, sale riunioni acustiche e una grande cucina comune che affaccia sulla terrazza.\n\nIl progetto della luce e dei materiali punta al benessere di chi ci lavora ogni giorno.",
+            "works": [
+                "Progetto degli spazi di lavoro",
+                "Interior design",
+                "Progetto della luce",
+                "Direzione lavori"
+            ],
+            "cover": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1600&q=80",
+            "photos": [
+                {
+                    "url": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1600&q=80",
+                    "caption": "Open space al primo piano"
+                },
+                {
+                    "url": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1600&q=80",
+                    "caption": "Postazioni e verde"
+                },
+                {
+                    "url": "https://images.unsplash.com/photo-1531973576160-7125cd663d86?auto=format&fit=crop&w=1600&q=80",
+                    "caption": "Le sale progetto"
+                },
+                {
+                    "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=80",
+                    "caption": "Il corridoio vetrato"
+                },
+                {
+                    "url": "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=1600&q=80",
+                    "caption": "La cucina comune"
+                }
+            ],
+            "before": "",
+            "after": "",
+            "featured": true,
+            "published": true
+        },
+        {
+            "id": "p-casa-volte",
+            "title": "Casa delle Volte",
+            "category": "Restauro",
+            "location": "Monopoli (BA), centro storico",
+            "year": "2021",
+            "client": "Famiglia De Nicola",
+            "area": "240 m²",
+            "duration": "20 mesi",
+            "status": "completato",
+            "summary": "Il restauro di una casa a volte del Seicento nel cuore di Monopoli.",
+            "description": "Una casa su tre livelli coperta da volte a stella, nascoste da controsoffitti degli anni '60. Le abbiamo riportate alla luce, consolidate e lasciate respirare con intonaci a calce, studiando con la Soprintendenza cosa conservare e cosa reinterpretare.\n\nGli impianti corrono nascosti nei pavimenti: nessuna traccia nelle murature antiche. Il progetto ha ricevuto una menzione al Premio Architettura Puglia 2021.",
+            "works": [
+                "Rilievo e analisi storica",
+                "Progetto di restauro",
+                "Autorizzazione paesaggistica",
+                "Interni",
+                "Direzione lavori"
+            ],
+            "cover": "https://images.unsplash.com/photo-1524230572899-a752b3835840?auto=format&fit=crop&w=1600&q=80",
+            "photos": [
+                {
+                    "url": "https://images.unsplash.com/photo-1524230572899-a752b3835840?auto=format&fit=crop&w=1600&q=80",
+                    "caption": "Le volte restaurate"
+                },
+                {
+                    "url": "https://images.unsplash.com/photo-1564540583246-934409427776?auto=format&fit=crop&w=1600&q=80",
+                    "caption": "Il bagno in marmo"
+                },
+                {
+                    "url": "https://images.unsplash.com/photo-1600607687126-8a3414349a51?auto=format&fit=crop&w=1600&q=80",
+                    "caption": "Una camera sotto le volte"
+                },
+                {
+                    "url": "https://images.unsplash.com/photo-1615529182904-14819c35db37?auto=format&fit=crop&w=1600&q=80",
+                    "caption": "Il salotto"
+                },
+                {
+                    "url": "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=1600&q=80",
+                    "caption": "La vasca nella stanza di pietra"
+                }
+            ],
+            "before": "",
+            "after": "",
+            "featured": true,
+            "published": true
+        },
+        {
+            "id": "p-residenza-aurora",
+            "title": "Residenza Aurora",
+            "category": "Residenziale",
+            "location": "Bari",
+            "year": "2023",
+            "client": "Aurora Immobiliare S.r.l.",
+            "area": "3.200 m²",
+            "duration": "24 mesi",
+            "status": "completato",
+            "summary": "Ventiquattro appartamenti con logge profonde e giardini pensili.",
+            "description": "Un edificio di sei piani in cui ogni alloggio ha una loggia abitabile, orientata per proteggersi dal sole d'estate e lasciarlo entrare d'inverno. Facciata ventilata in gres e legno, tetto verde comune.",
+            "works": [
+                "Progetto architettonico",
+                "Permesso di costruire",
+                "Coordinamento strutture e impianti",
+                "Direzione lavori"
+            ],
+            "cover": "https://images.unsplash.com/photo-1527030280862-64139fba04ca?auto=format&fit=crop&w=1600&q=80",
+            "photos": [
+                {
+                    "url": "https://images.unsplash.com/photo-1527030280862-64139fba04ca?auto=format&fit=crop&w=1600&q=80",
+                    "caption": "Le terrazze verdi"
+                },
+                {
+                    "url": "https://images.unsplash.com/photo-1551038247-3d9af20df552?auto=format&fit=crop&w=1600&q=80",
+                    "caption": "Il prospetto sulla strada"
+                },
+                {
+                    "url": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1600&q=80",
+                    "caption": "Un appartamento tipo"
+                },
+                {
+                    "url": "https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=1600&q=80",
+                    "caption": "Zona giorno con loggia"
+                }
+            ],
+            "before": "",
+            "after": "",
+            "featured": false,
+            "published": true
+        },
+        {
+            "id": "p-corte-querce",
+            "title": "Corte delle Querce",
+            "category": "Residenziale",
+            "location": "Altamura (BA)",
+            "year": "2026",
+            "client": "Cooperativa Le Querce",
+            "area": "2.100 m²",
+            "duration": "18 mesi",
+            "status": "inCorso",
+            "summary": "Dodici case a schiera in classe A attorno a un parco comune.",
+            "description": "Un piccolo quartiere pensato come un borgo: case a schiera con giardino privato, percorsi pedonali e un parco centrale piantumato con specie locali. Il cantiere è in corso, consegna prevista nel 2027.",
+            "works": [
+                "Masterplan",
+                "Progetto architettonico",
+                "Progetto del paesaggio",
+                "Direzione lavori"
+            ],
+            "cover": "https://images.unsplash.com/photo-1605146769289-440113cc3d00?auto=format&fit=crop&w=1600&q=80",
+            "photos": [
+                {
+                    "url": "https://images.unsplash.com/photo-1605146769289-440113cc3d00?auto=format&fit=crop&w=1600&q=80",
+                    "caption": "Le case sul viale"
+                },
+                {
+                    "url": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=1600&q=80",
+                    "caption": "Il prototipo di una casa"
+                },
+                {
+                    "url": "https://images.unsplash.com/photo-1517089596392-fb9a9033e05b?auto=format&fit=crop&w=1600&q=80",
+                    "caption": "Il cantiere in corso"
+                }
+            ],
+            "before": "",
+            "after": "",
+            "featured": false,
+            "published": true
+        },
+        {
+            "id": "p-torre-meridiana",
+            "title": "Torre Meridiana",
+            "category": "Commerciale",
+            "location": "Bari",
+            "year": "2026",
+            "client": "Meridiana Sviluppo S.p.A.",
+            "area": "9.400 m²",
+            "duration": "30 mesi",
+            "status": "inCorso",
+            "summary": "Torre per uffici di dodici piani con facciata a doppia pelle.",
+            "description": "Il progetto più alto dello studio: dodici piani di uffici attorno a un nucleo centrale, una facciata a doppia pelle che filtra la luce e una piazza coperta al piano terra aperta alla città.",
+            "works": [
+                "Concorso e concept",
+                "Progetto architettonico",
+                "Render e video",
+                "Direzione artistica"
+            ],
+            "cover": "https://images.unsplash.com/photo-1541976590-713941681591?auto=format&fit=crop&w=1600&q=80",
+            "photos": [
+                {
+                    "url": "https://images.unsplash.com/photo-1541976590-713941681591?auto=format&fit=crop&w=1600&q=80",
+                    "caption": "Studio della facciata"
+                },
+                {
+                    "url": "https://images.unsplash.com/photo-1431576901776-e539bd916ba2?auto=format&fit=crop&w=1600&q=80",
+                    "caption": "Riferimenti di facciata"
+                },
+                {
+                    "url": "https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?auto=format&fit=crop&w=1600&q=80",
+                    "caption": "La torre nello skyline"
+                },
+                {
+                    "url": "https://images.unsplash.com/photo-1496307653780-42ee777d4833?auto=format&fit=crop&w=1600&q=80",
+                    "caption": "Il nucleo vetrato"
+                }
+            ],
+            "before": "",
+            "after": "",
+            "featured": false,
+            "published": true
+        },
+        {
+            "id": "p-villa-collina",
+            "title": "Villa sulla collina",
+            "category": "Residenziale",
+            "location": "Ostuni (BR)",
+            "year": "2022",
+            "client": "Privato",
+            "area": "280 m²",
+            "duration": "13 mesi",
+            "status": "completato",
+            "summary": "Volumi bianchi a gradoni che seguono il pendio e guardano la piana degli ulivi.",
+            "description": "Tre volumi sfalsati seguono la pendenza del terreno: ognuno ha la sua terrazza e la sua vista. All'interno pochi materiali, intonaco a calce, rovere e pietra, e tanta luce zenitale.\n\nIl progetto ha ottenuto la classe A4 senza rinunciare alle grandi aperture.",
+            "works": [
+                "Progetto architettonico",
+                "Permesso di costruire",
+                "Interior design",
+                "Direzione lavori"
+            ],
+            "photos": [
+                {
+                    "url": "https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba?auto=format&fit=crop&w=1600&q=80",
+                    "caption": "La villa sul pendio"
+                },
+                {
+                    "url": "https://images.unsplash.com/photo-1600563438938-a9a27216b4f5?auto=format&fit=crop&w=1600&q=80",
+                    "caption": "I volumi sfalsati"
+                },
+                {
+                    "url": "https://images.unsplash.com/photo-1503594384566-461fe158e797?auto=format&fit=crop&w=1600&q=80",
+                    "caption": "Dettaglio della copertura"
+                },
+                {
+                    "url": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=80",
+                    "caption": "Il soggiorno"
+                }
+            ],
+            "before": "",
+            "after": "",
+            "featured": false,
+            "published": true,
+            "cover": "https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba?auto=format&fit=crop&w=1600&q=80"
+        }
+    ],
+    "services": [
+        {
+            "id": "s-architettura",
+            "title": "Progettazione architettonica",
+            "text": "Case nuove, ampliamenti, piccoli edifici. Partiamo dal luogo e dalle tue abitudini, ti mostriamo il progetto in render e modelli 3D e lo sviluppiamo fino all'esecutivo, con computo e capitolato.",
+            "image": "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=1600&q=80",
+            "points": [
+                "Concept e render",
+                "Progetto definitivo ed esecutivo",
+                "Computo e capitolato"
+            ],
+            "categories": [
+                "Residenziale",
+                "Commerciale"
+            ],
+            "active": true
+        },
+        {
+            "id": "s-interni",
+            "title": "Interior design",
+            "text": "Distribuzione degli spazi, arredi su misura, luci, colori e materiali. Ti accompagniamo nella scelta di ogni finitura e disegniamo i pezzi che non si trovano in negozio.",
+            "image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1600&q=80",
+            "points": [
+                "Arredi su misura",
+                "Progetto della luce",
+                "Scelta dei materiali"
+            ],
+            "categories": [
+                "Interni"
+            ],
+            "active": true
+        },
+        {
+            "id": "s-ristrutturazioni",
+            "title": "Ristrutturazioni",
+            "text": "Appartamenti e case da ripensare. Rileviamo lo stato di fatto, proponiamo due o tre soluzioni, prepariamo le pratiche e seguiamo l'impresa in cantiere perché tempi e costi restino quelli concordati.",
+            "image": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1600&q=80",
+            "points": [
+                "Rilievo e stato di fatto",
+                "Più soluzioni a confronto",
+                "Bonus edilizi"
+            ],
+            "categories": [
+                "Ristrutturazione",
+                "Interni"
+            ],
+            "active": true
+        },
+        {
+            "id": "s-restauro",
+            "title": "Restauro e recupero",
+            "text": "Masserie, trulli, palazzi nei centri storici. Studiamo la storia dell'edificio, dialoghiamo con la Soprintendenza e progettiamo interventi che conservano il carattere e aggiungono il comfort di oggi.",
+            "image": "https://images.unsplash.com/photo-1574691250077-03a929faece5?auto=format&fit=crop&w=1600&q=80",
+            "points": [
+                "Analisi storica",
+                "Beni vincolati",
+                "Autorizzazioni paesaggistiche"
+            ],
+            "categories": [
+                "Restauro"
+            ],
+            "active": true
+        },
+        {
+            "id": "s-pratiche",
+            "title": "Pratiche e permessi",
+            "text": "CILA, SCIA, permesso di costruire, sanatorie, catasto e agibilità. Ci occupiamo noi di uffici tecnici e scadenze, e ti spieghiamo in parole semplici cosa serve e quanto tempo richiede.",
+            "image": "https://images.unsplash.com/photo-1545987796-200677ee1011?auto=format&fit=crop&w=1600&q=80",
+            "points": [
+                "CILA, SCIA, permessi",
+                "Sanatorie e conformità",
+                "Catasto e agibilità"
+            ],
+            "categories": [
+                "Ristrutturazione",
+                "Residenziale"
+            ],
+            "active": true
+        },
+        {
+            "id": "s-direzione",
+            "title": "Direzione lavori",
+            "text": "Scegliamo con te l'impresa, controlliamo che il progetto venga realizzato come disegnato, verifichiamo contabilità e qualità e ti aggiorniamo ogni settimana nella tua area clienti.",
+            "image": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1600&q=80",
+            "points": [
+                "Scelta dell'impresa",
+                "Controllo di tempi e costi",
+                "Aggiornamenti settimanali"
+            ],
+            "categories": [
+                "Residenziale",
+                "Commerciale",
+                "Ristrutturazione"
+            ],
+            "active": true
+        },
+        {
+            "id": "s-render",
+            "title": "Render e realtà virtuale",
+            "text": "Immagini fotorealistiche, video e visite in realtà virtuale: per decidere con sicurezza prima di costruire, per presentare un progetto a un condominio o per vendere un immobile ancora sulla carta.",
+            "image": "https://images.unsplash.com/photo-1486718448742-163732cd1544?auto=format&fit=crop&w=1600&q=80",
+            "points": [
+                "Render fotorealistici",
+                "Video e animazioni",
+                "Visite in VR"
+            ],
+            "categories": [
+                "Commerciale"
+            ],
+            "active": true
+        }
+    ],
+    "testimonials": [
+        {
+            "id": "q-ulivi",
+            "name": "Francesca e Luca",
+            "role": "Casa tra gli ulivi",
+            "text": "Ci hanno fatto vedere la casa in 3D prima ancora di posare la prima pietra. In cantiere Davide c'era sempre: abbiamo avuto esattamente quello che avevamo visto nei render.",
+            "published": true
+        },
+        {
+            "id": "q-levante",
+            "name": "Giorgio Lattanzi",
+            "role": "Levante Lab S.r.l.",
+            "text": "Hanno capito come lavoriamo prima di disegnare una sola linea. Oggi i nostri uffici sono il posto in cui le persone vogliono stare.",
+            "published": true
+        },
+        {
+            "id": "q-masseria",
+            "name": "Famiglia De Nicola",
+            "role": "Casa delle Volte",
+            "text": "Hanno trattato le pietre della nostra casa con il rispetto che meritavano e ci hanno guidato con pazienza tra permessi e Soprintendenza.",
+            "published": true
+        }
+    ],
+    "demoClient": {
+        "id": "c-demo",
+        "name": "Famiglia Marino",
+        "email": "demo@lumenarchitettura.it",
+        "phone": "+39 333 765 4321",
+        "notes": "Cliente di prova: si può eliminare.",
+        "passwordHash": "",
+        "passwordSalt": "",
+        "active": true,
+        "createdAt": "2026-10-01T09:00:00",
+        "lastLogin": null
+    },
+    "demoPassword": "progetto2026",
+    "demoWorksites": [
+        {
+            "id": "w-demo",
+            "clientId": "c-demo",
+            "title": "Casa Marino, ristrutturazione e interni",
+            "address": "Via Sparano 41, Bari",
+            "start": "Settembre 2026",
+            "end": "Giugno 2027",
+            "status": "inCorso",
+            "progress": 40,
+            "phase": "Progetto definitivo e render",
+            "description": "Ristrutturazione dell'appartamento al quarto piano: nuova distribuzione con cucina a isola aperta sul soggiorno, due bagni, uno studio e il progetto d'interni con arredi su misura.",
+            "cover": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1600&q=80",
+            "steps": [
+                {
+                    "title": "Primo incontro e rilievo",
+                    "date": "Settembre 2026",
+                    "done": true
+                },
+                {
+                    "title": "Concept e soluzioni a confronto",
+                    "date": "Ottobre 2026",
+                    "done": true
+                },
+                {
+                    "title": "Progetto definitivo e render",
+                    "date": "Novembre 2026",
+                    "done": false
+                },
+                {
+                    "title": "Pratica edilizia (CILA)",
+                    "date": "Dicembre 2026",
+                    "done": false
+                },
+                {
+                    "title": "Esecutivo, computo e scelta dell'impresa",
+                    "date": "Gennaio 2027",
+                    "done": false
+                },
+                {
+                    "title": "Direzione lavori",
+                    "date": "Febbraio – Maggio 2027",
+                    "done": false
+                },
+                {
+                    "title": "Fine lavori e consegna",
+                    "date": "Giugno 2027",
+                    "done": false
+                }
+            ],
+            "updates": [
+                {
+                    "id": "u-render",
+                    "date": "2026-10-21T10:00:00",
+                    "title": "Primi render della zona giorno",
+                    "text": "Ecco come diventerà il soggiorno con la cucina a isola. Abbiamo provato il rovere naturale a pavimento e la resina color calce alle pareti: diteci cosa ne pensate, possiamo cambiare tutto.",
+                    "photos": [
+                        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1600&q=80",
+                        "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1600&q=80"
+                    ]
+                },
+                {
+                    "id": "u-rilievo",
+                    "date": "2026-10-07T10:00:00",
+                    "title": "Rilievo completato",
+                    "text": "Abbiamo misurato tutto l'appartamento e verificato impianti e pareti portanti. Trovate qui sotto la relazione con lo stato di fatto e le prime idee.",
+                    "photos": [
+                        "https://images.unsplash.com/photo-1503387837-b154d5074bd2?auto=format&fit=crop&w=1600&q=80"
+                    ]
+                }
+            ],
+            "files": [
+                {
+                    "id": "f-concept",
+                    "name": "Concept distributivo.txt",
+                    "mime": "text/plain",
+                    "size": 225,
+                    "data": "data:text/plain;base64,Q2FzYSBNYXJpbm8gLSBjb25jZXB0IGRpc3RyaWJ1dGl2bwoKVmVyc2lvbmUgQiAoc2NlbHRhIGFsbCdpbmNvbnRybyBkZWwgOSBvdHRvYnJlKToKLSBpbmdyZXNzbyBjb24gYXJtYWRpbyBhIG11cm8KLSBjdWNpbmEgYSBpc29sYSBhcGVydGEgc3VsIHNvZ2dpb3JubwotIHN0dWRpbyBjb24gcGFyZXRlIHZldHJhdGEKLSBkdWUgYmFnbmksIHVubyBjb24gZG9jY2lhIGEgZmlsbyBwYXZpbWVudG8K",
+                    "note": "La versione B scelta insieme: approvala per passare al progetto definitivo.",
+                    "uploadedAt": "2026-10-21T10:00:00",
+                    "approvalRequested": true,
+                    "approvedAt": null
+                },
+                {
+                    "id": "f-computo",
+                    "name": "Computo preliminare.txt",
+                    "mime": "text/plain",
+                    "size": 247,
+                    "data": "data:text/plain;base64,Q2FzYSBNYXJpbm8gLSBjb21wdXRvIHByZWxpbWluYXJlCgpEZW1vbGl6aW9uaSBlIHJpY29zdHJ1emlvbmk6IDE4LjUwMCBldXJvCkltcGlhbnRpIGVsZXR0cmljbyBlIGlkcmF1bGljbzogMjQuMDAwIGV1cm8KUGF2aW1lbnRpIGUgcml2ZXN0aW1lbnRpOiAyMS4wMDAgZXVybwpJbmZpc3NpOiAxNi41MDAgZXVybwpBcnJlZGkgc3UgbWlzdXJhOiAyOC4wMDAgZXVybwpUb3RhbGUgaW5kaWNhdGl2bzogMTA4LjAwMCBldXJvICsgSVZBCg==",
+                    "note": "Stima dei costi da affinare con il progetto esecutivo.",
+                    "uploadedAt": "2026-10-14T10:00:00"
+                },
+                {
+                    "id": "f-relazione",
+                    "name": "Relazione di progetto.txt",
+                    "mime": "text/plain",
+                    "size": 299,
+                    "data": "data:text/plain;base64,Q2FzYSBNYXJpbm8gLSByZWxhemlvbmUgZGkgcHJvZ2V0dG8KClN0YXRvIGF0dHVhbGU6IGFwcGFydGFtZW50byBkaSAxMjUgbTIgYWwgcXVhcnRvIHBpYW5vLCB0cmUgY2FtZXJlIGUgY3VjaW5hIGNoaXVzYS4KUHJvZ2V0dG86IHpvbmEgZ2lvcm5vIHVuaWNhIGNvbiBjdWNpbmEgYSBpc29sYSwgZHVlIGJhZ25pLCBjYW1lcmEgcGFkcm9uYWxlIGNvbiBjYWJpbmEgYXJtYWRpbywgc3R1ZGlvLgpNYXRlcmlhbGk6IHJvdmVyZSBuYXR1cmFsZSwgcmVzaW5hIGNvbG9yIGNhbGNlLCBwaWV0cmEgZGkgVHJhbmkgbmVpIGJhZ25pLgo=",
+                    "note": "Stato di fatto e prime scelte progettuali.",
+                    "uploadedAt": "2026-10-07T10:00:00"
+                }
+            ],
+            "messages": [
+                {
+                    "id": "m-1",
+                    "fromClient": false,
+                    "text": "Buongiorno! Da qui potete seguire il progetto, vedere i render, scaricare i documenti e approvare le tavole. Per qualsiasi dubbio scriveteci pure.",
+                    "date": "2026-10-02T09:30:00",
+                    "read": true
+                },
+                {
+                    "id": "m-2",
+                    "fromClient": true,
+                    "text": "Grazie! I render ci piacciono molto. Possiamo vedere anche una versione con il pavimento più chiaro?",
+                    "date": "2026-10-22T18:10:00",
+                    "read": false
+                }
+            ]
+        }
+    ]
+}

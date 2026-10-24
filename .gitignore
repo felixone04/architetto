@@ -1,0 +1,27 @@
+# Credenziali del database (si crea sul server, non va mai su GitHub)
+inc/config.local.php
+
+# Database SQLite per le prove in locale
+data/*.sqlite
+data/*.sqlite-*
+
+# Foto e documenti caricati dal gestionale
+uploads/img/*
+!uploads/img/.htaccess
+!uploads/img/.gitkeep
+uploads/files/*
+!uploads/files/.htaccess
+!uploads/files/.gitkeep
+
+# Anteprima statica generata da demo/build.php
+_site/
+
+# Varie
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Configurazione locale di Claude Code
+.claude/

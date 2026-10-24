@@ -1,0 +1,2 @@
+# Nessun accesso dal browser: questi file li legge solo PHP
+Require all denied
