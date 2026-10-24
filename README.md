@@ -4,13 +4,13 @@ Sito di uno studio di architettura e interni con portfolio dei progetti, pagina 
 
 Nasce dalla stessa struttura del sito M.I.R.O. Costruzioni (stessa logica in tutto), adattata al lavoro di un architetto: i "cantieri" diventano **commesse** (i progetti seguiti per i clienti), le richieste di preventivo diventano richieste di **primo incontro**, i clienti approvano **concept, tavole e render** dalla loro area.
 
-Le funzioni (area clienti, avanzamento, approvazioni, messaggi, gestionale con le stesse pagine) sono quelle di M.I.R.O.; il sito pubblico invece ha **foto e impaginazione proprie**: prima schermata divisa in due (testo e foto), sezioni numerate su righe sottili, indice dei servizi con anteprima, progetti in evidenza a zig-zag, portfolio a scacchiera con le categorie in colonna, scheda tecnica fissa accanto al racconto del progetto, galleria a colonne, valori con le lettere di LUMEN, tappe in orizzontale, piè di pagina con il nome a tutta larghezza.
+Le funzioni (area clienti, avanzamento, approvazioni, messaggi, gestionale con le stesse pagine) sono quelle di M.I.R.O.; il sito pubblico invece ha **foto e impaginazione proprie**: home essenziale con prima schermata divisa in due (testo e foto), sezioni numerate su righe sottili, portfolio a scacchiera con le categorie in colonna, scheda tecnica fissa accanto al racconto del progetto, galleria a colonne, valori con le lettere di LUMEN, tappe in orizzontale, piè di pagina con il nome a tutta larghezza.
 
 Stile sobrio e luminoso: titoli in Fraunces (ultima riga in corsivo colorato), testo in DM Sans, angoli netti su foto e schede, toni carta e terracotta, dissolvenze allo scorrimento. Il nome (Lumen Architettura) e il logo (due archi su una linea di terra) sono **di prova** e si sostituiscono dal gestionale.
 
 | Pagina | Percorso | Cosa contiene |
 |---|---|---|
-| Home | `/` | Prima schermata con le foto dei progetti in evidenza che si alternano, lo studio con i numeri, nastro scorrevole dei servizi, progetti recenti, recapiti |
+| Home | `/` | Prima schermata con le foto dei progetti in evidenza che si alternano, lo studio in breve con i numeri, tre progetti in evidenza |
 | Progetti | `/progetti` | Tutto il portfolio, con filtri discreti per categoria (Residenziale, Interni, Ristrutturazione…) |
 | Progetto | `/progetti/<nome>` (es. `/progetti/casa-tra-gli-ulivi`) | Scheda, racconto, "il nostro incarico", confronto prima/dopo da trascinare, galleria a tutto schermo, "Vorrei un progetto simile", progetto successivo |
 | Servizi | `/servizi` | Progettazione, interior design, ristrutturazioni, restauro, pratiche, direzione lavori, render: per ognuno descrizione, foto e progetti collegati |

@@ -142,18 +142,6 @@
         <div class="d">${esc(s.text)}</div></div>`, 120 * i)).join('')}</div></div></div></section>`;
   }
 
-  /** I servizi come un indice numerato: passando sopra una riga compare la sua foto. */
-  function servicesIndex() {
-    const c = C();
-    const list = boot.services;
-    if (!list.length) return '';
-    return `<section class="section t0"><div class="wrap">${sh({ n: '02', kicker: c.servicesKicker, title: c.servicesTitle, text: c.servicesText })}
-      <div class="sindex mt-l">${list.map((s, i) => reveal(`<a class="srow" href="servizi?s=${encodeURIComponent(s.id)}">
-        <span class="no">${pad2(i + 1)}</span><span class="t">${esc(s.title)}</span>
-        <span class="pts">${esc((s.points || []).slice(0, 3).join(' · '))}</span>${ms('arrow_outward')}
-        <span class="pv">${ph(s.image)}</span></a>`, 50 * i)).join('')}</div></div></section>`;
-  }
-
   function ticker() {
     const items = C().ticker || [];
     if (!items.length) return '';
@@ -162,20 +150,14 @@
   }
   ARCH.ticker = ticker;
 
-  /** Progetti in evidenza a zig-zag: foto grande da un lato, racconto breve dall'altro. */
+  /** Tre progetti in evidenza, in fila, e il link al portfolio. */
   function recentProjects() {
     const c = C();
-    const list = featured().slice(0, 4);
+    const list = featured().slice(0, 3);
     if (!list.length) return '';
-    return `<section class="section t0"><div class="wrap">${sh({ n: '03', kicker: c.projectsKicker, title: c.projectsTitle, text: c.projectsText,
+    return `<section class="section t0"><div class="wrap">${sh({ n: '02', kicker: c.projectsKicker, title: c.projectsTitle, text: c.projectsText,
       trailing: btn('Tutto il portfolio', 'progetti', { kind: 'outline' }) })}
-      <div class="feats mt-l">${list.map((p, i) => `<article class="feat ${i % 2 ? 'rev' : ''}">
-        ${reveal(`<a class="fimg" href="${ARCH.projectLink(p)}" aria-label="${esc(p.title)}">${parallax(coverUrl(p), { extent: 0.18, cls: 'fill' })}</a>`)}
-        <div class="ftx">${reveal(`<span class="no">${pad2(i + 1)} — ${pad2(list.length)}</span>`)}
-          ${reveal(`<span class="cat">${esc([p.category, p.location].filter(Boolean).join(' · '))}</span>`, 80)}
-          ${reveal(`<h3 class="serif"><a href="${ARCH.projectLink(p)}">${esc(p.title)}</a></h3>`, 140)}
-          ${p.summary ? reveal(`<p>${esc(p.summary)}</p>`, 200) : ''}
-          ${reveal(hl('Scopri il progetto', ARCH.projectLink(p), { arrow: true }), 260)}</div></article>`).join('')}</div></div></section>`;
+      <div class="prow mt-l">${list.map((p, i) => reveal(projectCard(p, { n: i + 1 }), 100 * i)).join('')}</div></div></section>`;
   }
 
   function contactLine(icon, label, value, href, ext = false) {
@@ -184,19 +166,8 @@
   }
   ARCH.contactLine = contactLine;
 
-  /** Recapiti: foto da un lato, invito e contatti dall'altro. */
-  function contactStrip() {
-    const c = C();
-    const k = c.contacts || {};
-    return `<section class="section"><div class="wrap">${reveal(`<div class="cstrip"><div class="cs-img">${ph(c.contactImage || c.aboutImage)}</div>
-      <div class="cs-txt">${kicker('Contatti')}${rt('Parliamo del\ntuo progetto.')}<div class="mt-m">
-      ${k.phone ? contactLine('call', 'Telefono', k.phone, 'tel:' + phoneDigits(k.phone)) : ''}
-      ${k.email ? contactLine('mail', 'Email', k.email, 'mailto:' + k.email) : ''}
-      ${k.address ? contactLine('place', 'Studio', k.address, mapsUrl(k.address), true) : ''}</div>
-      <div class="mt-m">${btn('Scrivici dal modulo', 'contatti')}</div></div></div>`)}</div></section>`;
-  }
-
-  ARCH.route('/', () => ARCH.page('/', hero() + intro() + servicesIndex() + recentProjects() + ticker() + contactStrip(), { mount: mountHero }));
+  // Home essenziale: prima schermata, lo studio in breve, tre progetti. I contatti sono nel piè di pagina.
+  ARCH.route('/', () => ARCH.page('/', hero() + intro() + recentProjects(), { mount: mountHero }));
 
   // ============================================================ PROGETTI
 
@@ -350,7 +321,7 @@
     const tabs = `<div class="svtabs" role="tablist">${list.map((s, i) => `<button class="svtab ${i === sel ? 'active' : ''}" data-f="${i}" role="tab" aria-selected="${i === sel}">
       <span class="no">${pad2(i + 1)}</span><span class="t">${esc(s.title)}</span>${ms('arrow_forward')}</button>`).join('')}</div>`;
     ARCH.page('/servizi', pageHeader({ kicker: c.servicesKicker, title: c.servicesTitle, text: c.servicesText })
-      + (list.length ? `<section class="section t0"><div class="wrap svc"><aside>${reveal(tabs)}</aside><div id="sv">${serviceView(list[sel])}</div></div></section>` : ''), {
+      + (list.length ? `<section class="section t0"><div class="wrap svc"><aside>${reveal(tabs)}</aside><div id="sv">${serviceView(list[sel])}</div></div></section>` : '') + ticker(), {
       mount(root) {
         root.addEventListener('click', (e) => {
           const b = e.target.closest('[data-f]');

@@ -285,11 +285,11 @@ const ARCH = (() => {
   function headerHtml() {
     const c = scaffold.current;
     const logged = !!boot.client;
-    // Tre colonne: logo, voci numerate al centro, area clienti e menu a destra.
-    return `<div class="h-l"><a href="./" aria-label="Home">${logo({ height: 'clamp(2rem, calc(2rem + (100vw - 22.5rem) * .0048), 2.375rem)' })}</a></div>
-      <nav class="nav">${NAV.map(([l, p], i) => `<a class="hl ${isActive(p, c) ? 'active' : ''}" href="${link(p)}"><span><small>${pad2(i + 1)}</small>${l}</span></a>`).join('')}</nav>
-      <div class="h-r"><a class="client-pill ${c.startsWith('/area-clienti') ? 'active' : ''}" href="area-clienti">${ms(logged ? 'person' : 'person_outline')}Area clienti</a>
-      <button class="burger ${menuOpen ? 'open' : ''}" aria-label="${menuOpen ? 'Chiudi menu' : 'Apri menu'}"><i></i><i></i></button></div>`;
+    return `<a href="./" aria-label="Home">${logo({ height: 'clamp(2.125rem, calc(2.125rem + (100vw - 22.5rem) * .0048), 2.5rem)' })}</a>
+      <span class="sp"></span>
+      <nav class="nav">${NAV.map(([l, p]) => `<a class="hl ${isActive(p, c) ? 'active' : ''}" href="${link(p)}"><span>${l}</span></a>`).join('')}</nav>
+      <a class="client-pill ${c.startsWith('/area-clienti') ? 'active' : ''}" href="area-clienti">${ms(logged ? 'person' : 'person_outline')}Area clienti</a>
+      <button class="burger ${menuOpen ? 'open' : ''}" aria-label="${menuOpen ? 'Chiudi menu' : 'Apri menu'}"><i></i><i></i></button>`;
   }
 
   function updateHeader() {
@@ -321,7 +321,7 @@ const ARCH = (() => {
       const m = document.createElement('div');
       m.id = 'mmenu';
       m.className = 'mmenu';
-      m.innerHTML = items.map(([l, p], i) => `<a class="big ${isActive(p, scaffold.current) ? 'cur' : ''}" href="${link(p)}" style="animation-delay:${i * 0.07}s"><small>${pad2(i + 1)}</small>${l}</a>`).join('')
+      m.innerHTML = items.map(([l, p], i) => `<a class="big ${isActive(p, scaffold.current) ? 'cur' : ''}" href="${link(p)}" style="animation-delay:${i * 0.07}s">${l}</a>`).join('')
         + '<div class="sep"></div>'
         + (k.phone ? `<a class="mc" href="tel:${phoneDigits(k.phone)}">${ms('call')}${esc(k.phone)}</a>` : '')
         + (k.email ? `<a class="mc" href="mailto:${esc(k.email)}">${ms('mail')}${esc(k.email)}</a>` : '')
