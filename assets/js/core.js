@@ -18,12 +18,18 @@ const ARCH = (() => {
       accent: '#2F5266', accentDeep: '#2F5266', onAccent: '#FFFFFF', night: '#1A1F24', mutedDark: '#B2B8BE' },
     { id: 'salvia', name: 'Salvia', dark: false, paper: '#EDEFE8', concrete: '#E0E4D8', surface: '#F8F9F4', ink: '#28332B', muted: '#626D65',
       accent: '#7B6236', accentDeep: '#6C552D', onAccent: '#FFFFFF', night: '#202B23', mutedDark: '#B1BBB3' },
+    // Grigio chiaro con schede bianche e scritte grigio scuro: tutto in scala di grigi.
+    { id: 'cemento', name: 'Cemento', dark: false, paper: '#E4E4E2', concrete: '#D7D7D4', surface: '#FFFFFF', ink: '#2A2C2F', muted: '#5C5F63',
+      accent: '#3B3E43', accentDeep: '#2A2C2F', onAccent: '#FFFFFF', night: '#2A2C2F', mutedDark: '#B4B7BB' },
     { id: 'grafite', name: 'Grafite', dark: true, paper: '#1D1E20', concrete: '#25272A', surface: '#2C2E32', ink: '#EDEBE6', muted: '#A9A6A0',
       accent: '#D2A26E', accentDeep: '#DCB07F', onAccent: '#1D1E20', night: '#121314', mutedDark: '#A9A6A0' },
     { id: 'cotto', name: 'Cotto', dark: true, paper: '#2B211C', concrete: '#342822', surface: '#3C2F28', ink: '#F2E8DC', muted: '#BFAE9F',
       accent: '#E3896B', accentDeep: '#EA9A7E', onAccent: '#2B1A14', night: '#1B1411', mutedDark: '#BFAE9F' },
     { id: 'notte', name: 'Notte', dark: true, paper: '#141A22', concrete: '#1B232D', surface: '#222B36', ink: '#E9ECEF', muted: '#A2AAB3',
       accent: '#E0B47C', accentDeep: '#E6C08E', onAccent: '#141A22', night: '#0C1015', mutedDark: '#A2AAB3' },
+    // Grigio scuro con scritte bianche e dettagli grigio chiaro.
+    { id: 'ardesia', name: 'Ardesia', dark: true, paper: '#2E3034', concrete: '#373A3F', surface: '#404349', ink: '#FFFFFF', muted: '#B8BBC0',
+      accent: '#D6D8DB', accentDeep: '#E4E5E7', onAccent: '#2E3034', night: '#1E2023', mutedDark: '#B8BBC0' },
   ];
   const themeById = (id) => THEMES.find((t) => t.id === id);
   let visitorTheme = null;

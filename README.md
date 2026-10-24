@@ -88,7 +88,7 @@ email `demo@lumenarchitettura.it`, password `progetto2026`.
 
 ## Il pulsante "Colori"
 
-Sei tavolozze, tre chiare (Carta – bianco caldo con terracotta –, Calce, Salvia) e tre scure (Grafite, Cotto, Notte), applicate al volo con una dissolvenza. Da Gestionale → **Stile e colori** scegli la predefinita, quali proporre e chi vede il pulsante (tutti, solo con `/?prova=1`, nessuno); il link `/?tema=grafite` apre il sito già con quei colori.
+Otto tavolozze, quattro chiare (Carta – bianco caldo con terracotta –, Calce, Salvia, Cemento – grigio chiaro con schede bianche e scritte grigio scuro –) e quattro scure (Grafite, Cotto, Notte, Ardesia – grigio scuro con scritte bianche –), applicate al volo con una dissolvenza. Da Gestionale → **Stile e colori** scegli la predefinita, quali proporre e chi vede il pulsante (tutti, solo con `/?prova=1`, nessuno); il link `/?tema=grafite` apre il sito già con quei colori.
 
 ## Gestionale
 

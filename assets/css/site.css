@@ -552,7 +552,8 @@ a.ul { text-decoration: underline; text-underline-offset: 2px; }
 .switcher { position: fixed; left: 1.375rem; bottom: 1.375rem; z-index: 40; display: flex; flex-direction: column; align-items: flex-start; }
 @media (max-width: 599px) { .switcher { left: .875rem; bottom: .875rem; } }
 .sw-panel { width: min(16.875rem, calc(100vw - 1.75rem)); margin-bottom: .625rem; padding: .875rem .5rem .5rem; background: var(--surface); border: 1px solid var(--line);
-  border-radius: 1.25rem; box-shadow: 0 12px 30px rgba(0,0,0,.14); transform-origin: bottom left; animation: swin .32s var(--ease-cubic); }
+  border-radius: 1.25rem; box-shadow: 0 12px 30px rgba(0,0,0,.14); transform-origin: bottom left; animation: swin .32s var(--ease-cubic);
+  max-height: calc(100vh - var(--nav-h) - 6rem); overflow-y: auto; }
 @keyframes swin { from { opacity: 0; transform: scale(.9) translateY(10px); } }
 .sw-panel .tt { padding: 0 .625rem .5rem; color: var(--muted); font-size: .8125rem; }
 .sw-row { display: flex; align-items: center; gap: .75rem; padding: .5rem .625rem; border-radius: .875rem; cursor: pointer; transition: background-color .2s; }
