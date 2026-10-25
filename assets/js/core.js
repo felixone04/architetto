@@ -285,8 +285,6 @@ const ARCH = (() => {
   let scaffold = { current: '/', overHero: false };
   let menuOpen = false;
   let swOpen = false;
-  let lastY = 0;
-  let headerHidden = false;
 
   function headerHtml() {
     const c = scaffold.current;
@@ -306,11 +304,8 @@ const ARCH = (() => {
     h.classList.toggle('clear', transparent);
     h.classList.toggle('menu-open', menuOpen);
     $$('.logo', h).forEach((l) => l.classList.toggle('light', transparent));
-    // Nascosta mentre si scende, ricompare appena si risale.
-    if (y > 400 && y > lastY + 2) headerHidden = true;
-    else if (y < lastY - 2 || y <= 400) headerHidden = false;
-    h.classList.toggle('hidden', headerHidden && !menuOpen);
-    lastY = y;
+    // Sempre visibile e senza fascia: appena si scorre, dietro le voci la pagina si sfoca appena.
+    h.classList.toggle('scrolled', y > 8 && !menuOpen);
     const max = document.documentElement.scrollHeight - innerHeight;
     const bar = $('#ptop');
     if (bar) bar.style.width = (max > 0 ? clamp(y / max, 0, 1) * 100 : 0) + '%';
@@ -469,8 +464,6 @@ const ARCH = (() => {
     app.innerHTML = `<div class="progress-top" id="ptop"></div><header class="header" id="hdr">${headerHtml()}</header>
       <div class="page" id="page">${html}${footerHtml()}</div>`;
     scrollTo(0, 0);
-    lastY = 0;
-    headerHidden = false;
     updateHeader();
     const pg = $('#page');
     requestAnimationFrame(() => requestAnimationFrame(() => pg.classList.add('shown')));
