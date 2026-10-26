@@ -843,7 +843,7 @@ const ADM = (() => {
       <div class="achips" style="margin-top:.875rem"><button class="b fill" id="gconn">${ms('link')}${GCAL.connected() ? 'Ricollega' : 'Salva e collega Google Calendar'}</button>
         <button class="b out" id="gsave">Solo salva</button>${GCAL.connected() ? '<button class="b text" id="gdisc">Scollega</button>' : ''}</div>
       <details style="margin-top:1rem"><summary style="font-weight:600;cursor:pointer;padding:.5rem 0">Come ottenere il Client ID (una sola volta)</summary><div style="padding-top:.5rem">
-        ${step(1, 'Apri console.cloud.google.com con il tuo account Google e crea un progetto (es. “Sito Lumen”).')}
+        ${step(1, 'Apri console.cloud.google.com con il tuo account Google e crea un progetto (es. “Sito Di Stefano”).')}
         ${step(2, 'Da “API e servizi” → “Libreria” cerca “Google Calendar API” e premi Abilita.')}
         ${step(3, 'Da “Schermata consenso OAuth” scegli tipo Esterno, inserisci nome app e la tua email. Tra gli “Utenti di prova” aggiungi il tuo indirizzo Gmail.')}
         ${step(4, `Da “Credenziali” → “Crea credenziali” → “ID client OAuth” scegli “Applicazione web”. In “Origini JavaScript autorizzate” aggiungi esattamente questo indirizzo:

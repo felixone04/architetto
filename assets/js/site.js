@@ -351,12 +351,12 @@
       <div class="st-side">${c.aboutImage2 ? reveal(ph(c.aboutImage2, { cls: 'st-img' }), 150) : ''}
         ${c.certifications?.length ? reveal(`<div class="eyebrow mt-m">Iscrizioni e riconoscimenti</div><ul class="certs">${c.certifications.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>`, 250) : ''}</div>
       </div></section>`;
-    // Valori su una riga sola fino a cinque (le lettere di LUMEN), poi tre o quattro per riga.
+    // Valori su una riga sola fino a cinque , poi tre o quattro per riga.
     const nv = (c.values || []).length;
     const wideCols = nv <= 5 ? Math.max(nv, 1) : nv % 3 === 0 ? 3 : 4;
     const cols = innerWidth >= 1000 ? wideCols : innerWidth >= 540 ? 2 : 1;
     const values = nv ? `<section class="section" style="background:var(--concrete)"><div class="wrap">
-      ${sh({ n: '01', kicker: 'Il nome', title: nv === 1 ? 'Una parola\nche ci guida.' : (WORDS[nv] || 'Le') + ' parole\nche ci guidano.' })}
+      ${sh({ n: '01', kicker: 'I valori', title: nv === 1 ? 'Una parola\nche ci guida.' : (WORDS[nv] || 'Le') + ' parole\nche ci guidano.' })}
       <div class="values mt-l" style="--n:${wideCols}">${c.values.map((v, i) => reveal(`<div class="vcard"><div class="big">${esc((v.title || ' ')[0].toUpperCase())}</div>
         <h3>${esc(v.title)}</h3><p>${esc(v.text)}</p></div>`, 110 * (i % cols))).join('')}</div></div></section>` : '';
     const timeline = c.timeline?.length ? `<section class="section"><div class="wrap">${sh({ n: '02', kicker: 'La storia', title: "Un progetto\ndopo l'altro." })}

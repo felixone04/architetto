@@ -22,9 +22,9 @@ return [
         'host'      => '',                   // ← es. smtp.hostinger.com
         'porta'     => 465,
         'sicurezza' => 'ssl',
-        'utente'    => '',                   // ← es. info@lumenarchitettura.it
+        'utente'    => '',                   // ← es. info@distefanoarchitetto.it
         'password'  => '',                   // ← password della casella
-        'mittente'  => '',                   // ← es. info@lumenarchitettura.it
+        'mittente'  => '',                   // ← es. info@distefanoarchitetto.it
         'avvisi'    => '',                   // ← dove ricevere gli avvisi (vuoto = mittente)
     ],
 ];

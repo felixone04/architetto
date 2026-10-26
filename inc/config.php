@@ -1,6 +1,6 @@
 <?php
 /*
- * CONFIGURAZIONE DEL SITO LUMEN ARCHITETTURA
+ * CONFIGURAZIONE DEL SITO DI STEFANO ARCHITETTO
  *
  * Non scrivere qui le credenziali del database: mettile in
  * inc/config.local.php (copia inc/config.local.example.php). Quel file non

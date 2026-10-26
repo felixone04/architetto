@@ -1,7 +1,7 @@
 {
     "content": {
-        "companyName": "Lumen Architettura",
-        "shortName": "Lumen",
+        "companyName": "Di Stefano Architetto",
+        "shortName": "Di Stefano",
         "tagline": "Studio di architettura e interni ad Andria",
         "logo": "",
         "footerText": "Studio di architettura e interior design ad Andria dal 2000. Progettiamo case, interni e luoghi di lavoro e li seguiamo fino all'ultimo dettaglio.",
@@ -47,7 +47,7 @@
         "aboutKicker": "Lo studio",
         "aboutTitle": "La nostra\nstoria.",
         "aboutIntro": "Dal 2000 progettiamo spazi in cui stare bene: un piccolo studio diventato un gruppo affiatato di architetti e designer.",
-        "aboutText": "Lo studio nasce nel 2000 in una stanza di corso Cavour, ad Andria, con due tavoli da disegno e un plotter di seconda mano. Elena Ferri e Marco Lisi avevano un'idea semplice: progettare ascoltando e restare accanto ai clienti anche dopo il disegno, in cantiere.\n\nOggi siamo in dodici, lavoriamo in BIM e mostriamo ogni progetto in render prima di costruirlo, ma le scelte importanti le prendiamo ancora attorno a un tavolo, con le persone che quegli spazi li abiteranno.\n\nIl nome viene dal latino: lumen, la luce. È il primo materiale con cui lavoriamo, e le sue cinque lettere sono le parole a cui teniamo.",
+        "aboutText": "Lo studio nasce nel 2000 in una stanza di corso Cavour, ad Andria, con due tavoli da disegno e un plotter di seconda mano. Marco Di Stefano aveva un'idea semplice: progettare ascoltando e restare accanto ai clienti anche dopo il disegno, in cantiere.\n\nOggi siamo in dodici, lavoriamo in BIM e mostriamo ogni progetto in render prima di costruirlo, ma le scelte importanti le prendiamo ancora attorno a un tavolo, con le persone che quegli spazi li abiteranno.\n\nLa luce resta il primo materiale con cui lavoriamo: orientamento, aperture e ombre vengono prima di ogni altra scelta.",
         "aboutImage": "https://images.unsplash.com/photo-1503387837-b154d5074bd2?auto=format&fit=crop&w=1600&q=80",
         "aboutImage2": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1600&q=80",
         "values": [
@@ -76,7 +76,7 @@
             {
                 "year": "2000",
                 "title": "Una stanza e due tavoli",
-                "text": "Elena Ferri e Marco Lisi aprono lo studio ad Andria, con il primo incarico: una casa a Monopoli."
+                "text": "Marco Di Stefano apre lo studio ad Andria, con il primo incarico: una casa a Monopoli."
             },
             {
                 "year": "2009",
@@ -101,16 +101,16 @@
         ],
         "team": [
             {
-                "id": "t-elena",
-                "name": "Elena Ferri",
-                "role": "Architetta, fondatrice",
-                "photo": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1600&q=80"
+                "id": "t-marco",
+                "name": "Marco Di Stefano",
+                "role": "Architetto, titolare",
+                "photo": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=1600&q=80"
             },
             {
-                "id": "t-marco",
-                "name": "Marco Lisi",
-                "role": "Architetto, fondatore",
-                "photo": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=1600&q=80"
+                "id": "t-elena",
+                "name": "Elena Ferri",
+                "role": "Architetta",
+                "photo": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1600&q=80"
             },
             {
                 "id": "t-sara",
@@ -135,8 +135,8 @@
         "contacts": {
             "phone": "+39 0883 765 432",
             "whatsapp": "+39 340 765 4321",
-            "email": "info@lumenarchitettura.it",
-            "pec": "lumenarchitettura@pec.it",
+            "email": "info@distefanoarchitetto.it",
+            "pec": "distefanoarchitetto@pec.it",
             "address": "Via Corato 52, 76123 Andria (BT)",
             "hours": "Lun–Ven 9:00–13:00 · 15:00–19:00, su appuntamento",
             "instagram": "https://instagram.com/",
@@ -718,8 +718,8 @@
     ],
     "demoClient": {
         "id": "c-demo",
-        "name": "Famiglia Marino",
-        "email": "demo@lumenarchitettura.it",
+        "name": "Famiglia Matera",
+        "email": "demo@distefanoarchitetto.it",
         "phone": "+39 333 765 4321",
         "notes": "Cliente di prova: si può eliminare.",
         "passwordHash": "",
@@ -733,7 +733,7 @@
         {
             "id": "w-demo",
             "clientId": "c-demo",
-            "title": "Casa Marino, ristrutturazione e interni",
+            "title": "Casa Matera, ristrutturazione e interni",
             "address": "Via Bovio 41, Andria (BT)",
             "start": "Settembre 2026",
             "end": "Giugno 2027",
@@ -806,7 +806,7 @@
                     "name": "Concept distributivo.txt",
                     "mime": "text/plain",
                     "size": 225,
-                    "data": "data:text/plain;base64,Q2FzYSBNYXJpbm8gLSBjb25jZXB0IGRpc3RyaWJ1dGl2bwoKVmVyc2lvbmUgQiAoc2NlbHRhIGFsbCdpbmNvbnRybyBkZWwgOSBvdHRvYnJlKToKLSBpbmdyZXNzbyBjb24gYXJtYWRpbyBhIG11cm8KLSBjdWNpbmEgYSBpc29sYSBhcGVydGEgc3VsIHNvZ2dpb3JubwotIHN0dWRpbyBjb24gcGFyZXRlIHZldHJhdGEKLSBkdWUgYmFnbmksIHVubyBjb24gZG9jY2lhIGEgZmlsbyBwYXZpbWVudG8K",
+                    "data": "data:text/plain;base64,Q2FzYSBNYXRlcmEgLSBjb25jZXB0IGRpc3RyaWJ1dGl2bwoKVmVyc2lvbmUgQiAoc2NlbHRhIGFsbCdpbmNvbnRybyBkZWwgOSBvdHRvYnJlKToKLSBpbmdyZXNzbyBjb24gYXJtYWRpbyBhIG11cm8KLSBjdWNpbmEgYSBpc29sYSBhcGVydGEgc3VsIHNvZ2dpb3JubwotIHN0dWRpbyBjb24gcGFyZXRlIHZldHJhdGEKLSBkdWUgYmFnbmksIHVubyBjb24gZG9jY2lhIGEgZmlsbyBwYXZpbWVudG8K",
                     "note": "La versione B scelta insieme: approvala per passare al progetto definitivo.",
                     "uploadedAt": "2026-10-21T10:00:00",
                     "approvalRequested": true,
@@ -817,7 +817,7 @@
                     "name": "Computo preliminare.txt",
                     "mime": "text/plain",
                     "size": 247,
-                    "data": "data:text/plain;base64,Q2FzYSBNYXJpbm8gLSBjb21wdXRvIHByZWxpbWluYXJlCgpEZW1vbGl6aW9uaSBlIHJpY29zdHJ1emlvbmk6IDE4LjUwMCBldXJvCkltcGlhbnRpIGVsZXR0cmljbyBlIGlkcmF1bGljbzogMjQuMDAwIGV1cm8KUGF2aW1lbnRpIGUgcml2ZXN0aW1lbnRpOiAyMS4wMDAgZXVybwpJbmZpc3NpOiAxNi41MDAgZXVybwpBcnJlZGkgc3UgbWlzdXJhOiAyOC4wMDAgZXVybwpUb3RhbGUgaW5kaWNhdGl2bzogMTA4LjAwMCBldXJvICsgSVZBCg==",
+                    "data": "data:text/plain;base64,Q2FzYSBNYXRlcmEgLSBjb21wdXRvIHByZWxpbWluYXJlCgpEZW1vbGl6aW9uaSBlIHJpY29zdHJ1emlvbmk6IDE4LjUwMCBldXJvCkltcGlhbnRpIGVsZXR0cmljbyBlIGlkcmF1bGljbzogMjQuMDAwIGV1cm8KUGF2aW1lbnRpIGUgcml2ZXN0aW1lbnRpOiAyMS4wMDAgZXVybwpJbmZpc3NpOiAxNi41MDAgZXVybwpBcnJlZGkgc3UgbWlzdXJhOiAyOC4wMDAgZXVybwpUb3RhbGUgaW5kaWNhdGl2bzogMTA4LjAwMCBldXJvICsgSVZBCg==",
                     "note": "Stima dei costi da affinare con il progetto esecutivo.",
                     "uploadedAt": "2026-10-14T10:00:00"
                 },
@@ -826,7 +826,7 @@
                     "name": "Relazione di progetto.txt",
                     "mime": "text/plain",
                     "size": 299,
-                    "data": "data:text/plain;base64,Q2FzYSBNYXJpbm8gLSByZWxhemlvbmUgZGkgcHJvZ2V0dG8KClN0YXRvIGF0dHVhbGU6IGFwcGFydGFtZW50byBkaSAxMjUgbTIgYWwgcXVhcnRvIHBpYW5vLCB0cmUgY2FtZXJlIGUgY3VjaW5hIGNoaXVzYS4KUHJvZ2V0dG86IHpvbmEgZ2lvcm5vIHVuaWNhIGNvbiBjdWNpbmEgYSBpc29sYSwgZHVlIGJhZ25pLCBjYW1lcmEgcGFkcm9uYWxlIGNvbiBjYWJpbmEgYXJtYWRpbywgc3R1ZGlvLgpNYXRlcmlhbGk6IHJvdmVyZSBuYXR1cmFsZSwgcmVzaW5hIGNvbG9yIGNhbGNlLCBwaWV0cmEgZGkgVHJhbmkgbmVpIGJhZ25pLgo=",
+                    "data": "data:text/plain;base64,Q2FzYSBNYXRlcmEgLSByZWxhemlvbmUgZGkgcHJvZ2V0dG8KClN0YXRvIGF0dHVhbGU6IGFwcGFydGFtZW50byBkaSAxMjUgbTIgYWwgcXVhcnRvIHBpYW5vLCB0cmUgY2FtZXJlIGUgY3VjaW5hIGNoaXVzYS4KUHJvZ2V0dG86IHpvbmEgZ2lvcm5vIHVuaWNhIGNvbiBjdWNpbmEgYSBpc29sYSwgZHVlIGJhZ25pLCBjYW1lcmEgcGFkcm9uYWxlIGNvbiBjYWJpbmEgYXJtYWRpbywgc3R1ZGlvLgpNYXRlcmlhbGk6IHJvdmVyZSBuYXR1cmFsZSwgcmVzaW5hIGNvbG9yIGNhbGNlLCBwaWV0cmEgZGkgVHJhbmkgbmVpIGJhZ25pLgo=",
                     "note": "Stato di fatto e prime scelte progettuali.",
                     "uploadedAt": "2026-10-07T10:00:00"
                 }

@@ -1,12 +1,12 @@
-# Lumen Architettura – sito, area clienti e gestionale
+# Di Stefano Architetto – sito, area clienti e gestionale
 
 Sito di uno studio di architettura e interni con portfolio dei progetti, pagina dei servizi, area clienti riservata e gestionale. Scritto in **HTML, CSS, JavaScript e PHP** (nessun framework, nessuna compilazione), con database **MySQL**: pensato per l'hosting **Hostinger**. Responsive per telefono, tablet, PC e TV.
 
 Nasce dalla stessa struttura del sito M.I.R.O. Costruzioni (stessa logica in tutto), adattata al lavoro di un architetto: i "cantieri" diventano **commesse** (i progetti seguiti per i clienti), le richieste di preventivo diventano richieste di **primo incontro**, i clienti approvano **concept, tavole e render** dalla loro area.
 
-Le funzioni (area clienti, avanzamento, approvazioni, messaggi, gestionale con le stesse pagine) sono quelle di M.I.R.O.; il sito pubblico invece ha **foto e impaginazione proprie**: home essenziale con prima schermata divisa in due (testo e foto), sezioni numerate su righe sottili, portfolio a scacchiera con le categorie in colonna, scheda tecnica fissa accanto al racconto del progetto, galleria a colonne, valori con le lettere di LUMEN, tappe in orizzontale.
+Le funzioni (area clienti, avanzamento, approvazioni, messaggi, gestionale con le stesse pagine) sono quelle di M.I.R.O.; il sito pubblico invece ha **foto e impaginazione proprie**: home essenziale con prima schermata divisa in due (testo e foto), sezioni numerate su righe sottili, portfolio a scacchiera con le categorie in colonna, scheda tecnica fissa accanto al racconto del progetto, galleria a colonne, valori con le iniziali in grande, tappe in orizzontale.
 
-Stile sobrio e luminoso: titoli in Fraunces (ultima riga in corsivo colorato), testo in DM Sans, angoli netti su foto e schede, toni carta e terracotta, dissolvenze allo scorrimento. Il nome (Lumen Architettura) e il logo (due archi su una linea di terra) sono **di prova** e si sostituiscono dal gestionale.
+Stile sobrio e luminoso: titoli in Fraunces (ultima riga in corsivo colorato), testo in DM Sans, angoli netti su foto e schede, toni carta e terracotta, dissolvenze allo scorrimento. Il logo (due archi su una linea di terra) Ã¨ **di prova** e si sostituisce dal gestionale.
 
 | Pagina | Percorso | Cosa contiene |
 |---|---|---|
@@ -84,7 +84,7 @@ Un canale privato tra lo studio e ogni cliente (privato o azienda).
 - I documenti stanno in `uploads/files`, che non è raggiungibile direttamente: si scaricano solo da `api.php`, dopo aver controllato che la commessa sia del cliente collegato.
 
 **Cliente di prova** (creato al primo avvio, si elimina da Gestionale → Clienti):
-email `demo@lumenarchitettura.it`, password `progetto2026`.
+email `demo@distefanoarchitetto.it`, password `progetto2026`.
 
 ## Il pulsante "Colori"
 
