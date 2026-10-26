@@ -7,7 +7,7 @@
 'use strict';
 
 (() => {
-  const KEY = 'arch-anteprima-v1';
+  const KEY = 'arch-anteprima-v2';
   const seed = window.__SEED__;
   const now = () => new Date().toISOString();
   const newId = () => Date.now().toString(36) + Math.random().toString(36).slice(2, 8);

@@ -2,10 +2,10 @@
     "content": {
         "companyName": "Lumen Architettura",
         "shortName": "Lumen",
-        "tagline": "Studio di architettura e interni a Bari",
+        "tagline": "Studio di architettura e interni ad Andria",
         "logo": "",
-        "footerText": "Studio di architettura e interior design a Bari dal 2004. Progettiamo case, interni e luoghi di lavoro e li seguiamo fino all'ultimo dettaglio.",
-        "heroKicker": "Studio di architettura a Bari dal 2004",
+        "footerText": "Studio di architettura e interior design ad Andria dal 2000. Progettiamo case, interni e luoghi di lavoro e li seguiamo fino all'ultimo dettaglio.",
+        "heroKicker": "Studio di architettura ad Andria dal 2000",
         "heroTitle": "Spazi pensati\nper chi li abita.",
         "heroSubtitle": "Progettiamo case, interni e luoghi di lavoro in Puglia: dall'idea ai render, dalle pratiche alla direzione lavori, con un solo studio al tuo fianco.",
         "introKicker": "Lo studio",
@@ -13,7 +13,7 @@
         "introText": "Siamo architetti, interior designer e ingegneri. Ogni progetto parte dall'ascolto: come vivi, cosa ti serve, quanto vuoi spendere. Poi lo disegniamo insieme, te lo facciamo vedere in render prima di costruirlo e lo seguiamo in cantiere fino alla consegna delle chiavi.",
         "stats": [
             {
-                "title": "20",
+                "title": "26",
                 "text": "anni di progetti"
             },
             {
@@ -46,8 +46,8 @@
         ],
         "aboutKicker": "Lo studio",
         "aboutTitle": "La nostra\nstoria.",
-        "aboutIntro": "Dal 2004 progettiamo spazi in cui stare bene: un piccolo studio diventato un gruppo affiatato di architetti e designer.",
-        "aboutText": "Lo studio nasce nel 2004 in una stanza di via Sparano, con due tavoli da disegno e un plotter di seconda mano. Elena Ferri e Marco Lisi avevano un'idea semplice: progettare ascoltando e restare accanto ai clienti anche dopo il disegno, in cantiere.\n\nOggi siamo in dodici, lavoriamo in BIM e mostriamo ogni progetto in render prima di costruirlo, ma le scelte importanti le prendiamo ancora attorno a un tavolo, con le persone che quegli spazi li abiteranno.\n\nIl nome viene dal latino: lumen, la luce. È il primo materiale con cui lavoriamo, e le sue cinque lettere sono le parole a cui teniamo.",
+        "aboutIntro": "Dal 2000 progettiamo spazi in cui stare bene: un piccolo studio diventato un gruppo affiatato di architetti e designer.",
+        "aboutText": "Lo studio nasce nel 2000 in una stanza di corso Cavour, ad Andria, con due tavoli da disegno e un plotter di seconda mano. Elena Ferri e Marco Lisi avevano un'idea semplice: progettare ascoltando e restare accanto ai clienti anche dopo il disegno, in cantiere.\n\nOggi siamo in dodici, lavoriamo in BIM e mostriamo ogni progetto in render prima di costruirlo, ma le scelte importanti le prendiamo ancora attorno a un tavolo, con le persone che quegli spazi li abiteranno.\n\nIl nome viene dal latino: lumen, la luce. È il primo materiale con cui lavoriamo, e le sue cinque lettere sono le parole a cui teniamo.",
         "aboutImage": "https://images.unsplash.com/photo-1503387837-b154d5074bd2?auto=format&fit=crop&w=1600&q=80",
         "aboutImage2": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1600&q=80",
         "values": [
@@ -74,9 +74,9 @@
         ],
         "timeline": [
             {
-                "year": "2004",
+                "year": "2000",
                 "title": "Una stanza e due tavoli",
-                "text": "Elena Ferri e Marco Lisi aprono lo studio a Bari, con il primo incarico: una casa a Monopoli."
+                "text": "Elena Ferri e Marco Lisi aprono lo studio ad Andria, con il primo incarico: una casa a Monopoli."
             },
             {
                 "year": "2009",
@@ -126,18 +126,18 @@
             }
         ],
         "certifications": [
-            "Ordine degli Architetti PPC di Bari",
+            "Ordine degli Architetti PPC di Barletta-Andria-Trani",
             "Esperto CasaClima",
             "LEED Green Associate",
             "Progettazione BIM",
             "Premio Architettura Puglia 2021"
         ],
         "contacts": {
-            "phone": "+39 080 765 4321",
+            "phone": "+39 0883 765 432",
             "whatsapp": "+39 340 765 4321",
             "email": "info@lumenarchitettura.it",
             "pec": "lumenarchitettura@pec.it",
-            "address": "Via Abate Gimma 88, 70122 Bari",
+            "address": "Via Corato 52, 76123 Andria (BT)",
             "hours": "Lun–Ven 9:00–13:00 · 15:00–19:00, su appuntamento",
             "instagram": "https://instagram.com/",
             "facebook": "https://facebook.com/",
@@ -734,7 +734,7 @@
             "id": "w-demo",
             "clientId": "c-demo",
             "title": "Casa Marino, ristrutturazione e interni",
-            "address": "Via Sparano 41, Bari",
+            "address": "Via Bovio 41, Andria (BT)",
             "start": "Settembre 2026",
             "end": "Giugno 2027",
             "status": "inCorso",
