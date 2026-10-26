@@ -1,4 +1,4 @@
-# Di Stefano Architetto – sito, area clienti e gestionale
+# Matera Architetto – sito, area clienti e gestionale
 
 Sito di uno studio di architettura e interni con portfolio dei progetti, pagina dei servizi, area clienti riservata e gestionale. Scritto in **HTML, CSS, JavaScript e PHP** (nessun framework, nessuna compilazione), con database **MySQL**: pensato per l'hosting **Hostinger**. Responsive per telefono, tablet, PC e TV.
 
@@ -84,7 +84,7 @@ Un canale privato tra lo studio e ogni cliente (privato o azienda).
 - I documenti stanno in `uploads/files`, che non è raggiungibile direttamente: si scaricano solo da `api.php`, dopo aver controllato che la commessa sia del cliente collegato.
 
 **Cliente di prova** (creato al primo avvio, si elimina da Gestionale → Clienti):
-email `demo@distefanoarchitetto.it`, password `progetto2026`.
+email `demo@materaarchitetto.it`, password `progetto2026`.
 
 ## Il pulsante "Colori"
 

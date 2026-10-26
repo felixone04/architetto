@@ -80,7 +80,7 @@ function slug_progetti(array $progetti): array
     return $out;
 }
 
-/** Indirizzo completo del sito, es. https://www.distefanoarchitetto.it/ */
+/** Indirizzo completo del sito, es. https://www.materaarchitetto.it/ */
 function indirizzo_sito(): string
 {
     if (defined('ARCH_ORIGINE')) return ARCH_ORIGINE . ARCH_BASE;
@@ -103,7 +103,7 @@ function url_assoluto(string $u): string
 function meta_pagina(string $percorso, array $dati): array
 {
     $c = $dati['content'];
-    $nome = $c['companyName'] ?? 'Di Stefano Architetto';
+    $nome = $c['companyName'] ?? 'Matera Architetto';
     $riga = fn($s) => trim(preg_replace('/\s+/', ' ', (string) $s));
     $cover = fn($p) => trim($p['cover'] ?? '') ?: ($p['photos'][0]['url'] ?? '');
     $evidenza = array_values(array_filter($dati['projects'], fn($p) => !empty($p['featured'])))[0] ?? ($dati['projects'][0] ?? null);

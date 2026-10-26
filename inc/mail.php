@@ -51,7 +51,7 @@ function invia_email(string $a, string $oggetto, array $righe, ?array $pulsante 
 {
     $e = email_config();
     $c = kv_get('content', []);
-    $nome = trim($e['nome'] ?? '') ?: ($c['companyName'] ?? 'Di Stefano Architetto');
+    $nome = trim($e['nome'] ?? '') ?: ($c['companyName'] ?? 'Matera Architetto');
     $h = fn($s) => htmlspecialchars((string) $s, ENT_QUOTES, 'UTF-8');
 
     $testo = implode("\n\n", $righe) . ($pulsante ? "\n\n{$pulsante[0]}: {$pulsante[1]}" : '') . "\n\n— $nome";

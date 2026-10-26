@@ -1,5 +1,5 @@
 /* =====================================================================
-   Di Stefano Architetto — motore comune: dati, API, tavolozze, router,
+   Matera Architetto — motore comune: dati, API, tavolozze, router,
    intestazione e piè di pagina, comparse allo scorrimento, parallasse,
    visore foto, pulsante "Colori".
    ===================================================================== */

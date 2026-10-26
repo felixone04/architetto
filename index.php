@@ -92,7 +92,7 @@ header('Content-Type: text/html; charset=utf-8');
         <rect width="100" height="100" rx="22" fill="#A9573A"/>
         <path d="M22 76H78M29 76V50a21 21 0 0 1 42 0v26M42 76V61a8 8 0 0 1 16 0v15" fill="none" stroke="#fff" stroke-width="6.5" stroke-linejoin="round" stroke-linecap="round"/>
       </svg>
-      <div class="name"><?= $e($c['shortName'] ?? 'Di Stefano') ?><small><?= $e(trim(str_replace($c['shortName'] ?? '', '', $c['companyName'] ?? '')) ?: 'Architetto') ?></small></div>
+      <div class="name"><?= $e($c['shortName'] ?? 'Matera') ?><small><?= $e(trim(str_replace($c['shortName'] ?? '', '', $c['companyName'] ?? '')) ?: 'Architetto') ?></small></div>
     </div>
     <div class="bar"><b></b></div>
   </div>

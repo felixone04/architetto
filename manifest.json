@@ -1,11 +1,11 @@
 {
-    "name": "Di Stefano Architetto",
-    "short_name": "Di Stefano",
+    "name": "Matera Architetto",
+    "short_name": "Matera",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#F3F1EC",
     "theme_color": "#F3F1EC",
-    "description": "Di Stefano Architetto: studio di architettura e interni ad Andria dal 2000. Progetti, servizi, area clienti e contatti.",
+    "description": "Matera Architetto: studio di architettura e interni ad Andria dal 2000. Progetti, servizi, area clienti e contatti.",
     "orientation": "any",
     "lang": "it",
     "icons": [

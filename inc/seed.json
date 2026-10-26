@@ -1,7 +1,7 @@
 {
     "content": {
-        "companyName": "Di Stefano Architetto",
-        "shortName": "Di Stefano",
+        "companyName": "Matera Architetto",
+        "shortName": "Matera",
         "tagline": "Studio di architettura e interni ad Andria",
         "logo": "",
         "footerText": "Studio di architettura e interior design ad Andria dal 2000. Progettiamo case, interni e luoghi di lavoro e li seguiamo fino all'ultimo dettaglio.",
@@ -47,7 +47,7 @@
         "aboutKicker": "Lo studio",
         "aboutTitle": "La nostra\nstoria.",
         "aboutIntro": "Dal 2000 progettiamo spazi in cui stare bene: un piccolo studio diventato un gruppo affiatato di architetti e designer.",
-        "aboutText": "Lo studio nasce nel 2000 in una stanza di corso Cavour, ad Andria, con due tavoli da disegno e un plotter di seconda mano. Marco Di Stefano aveva un'idea semplice: progettare ascoltando e restare accanto ai clienti anche dopo il disegno, in cantiere.\n\nOggi siamo in dodici, lavoriamo in BIM e mostriamo ogni progetto in render prima di costruirlo, ma le scelte importanti le prendiamo ancora attorno a un tavolo, con le persone che quegli spazi li abiteranno.\n\nLa luce resta il primo materiale con cui lavoriamo: orientamento, aperture e ombre vengono prima di ogni altra scelta.",
+        "aboutText": "Lo studio nasce nel 2000 in una stanza di corso Cavour, ad Andria, con due tavoli da disegno e un plotter di seconda mano. Marco Matera aveva un'idea semplice: progettare ascoltando e restare accanto ai clienti anche dopo il disegno, in cantiere.\n\nOggi siamo in dodici, lavoriamo in BIM e mostriamo ogni progetto in render prima di costruirlo, ma le scelte importanti le prendiamo ancora attorno a un tavolo, con le persone che quegli spazi li abiteranno.\n\nLa luce resta il primo materiale con cui lavoriamo: orientamento, aperture e ombre vengono prima di ogni altra scelta.",
         "aboutImage": "https://images.unsplash.com/photo-1503387837-b154d5074bd2?auto=format&fit=crop&w=1600&q=80",
         "aboutImage2": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1600&q=80",
         "values": [
@@ -76,7 +76,7 @@
             {
                 "year": "2000",
                 "title": "Una stanza e due tavoli",
-                "text": "Marco Di Stefano apre lo studio ad Andria, con il primo incarico: una casa a Monopoli."
+                "text": "Marco Matera apre lo studio ad Andria, con il primo incarico: una casa a Monopoli."
             },
             {
                 "year": "2009",
@@ -102,7 +102,7 @@
         "team": [
             {
                 "id": "t-marco",
-                "name": "Marco Di Stefano",
+                "name": "Marco Matera",
                 "role": "Architetto, titolare",
                 "photo": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=1600&q=80"
             },
@@ -135,8 +135,8 @@
         "contacts": {
             "phone": "+39 0883 765 432",
             "whatsapp": "+39 340 765 4321",
-            "email": "info@distefanoarchitetto.it",
-            "pec": "distefanoarchitetto@pec.it",
+            "email": "info@materaarchitetto.it",
+            "pec": "materaarchitetto@pec.it",
             "address": "Via Corato 52, 76123 Andria (BT)",
             "hours": "Lun–Ven 9:00–13:00 · 15:00–19:00, su appuntamento",
             "instagram": "https://instagram.com/",
@@ -719,7 +719,7 @@
     "demoClient": {
         "id": "c-demo",
         "name": "Famiglia Matera",
-        "email": "demo@distefanoarchitetto.it",
+        "email": "demo@materaarchitetto.it",
         "phone": "+39 333 765 4321",
         "notes": "Cliente di prova: si può eliminare.",
         "passwordHash": "",
